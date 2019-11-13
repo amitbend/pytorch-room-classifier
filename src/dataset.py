@@ -61,7 +61,7 @@ class Rooms(object):
         print("Val set contains {:5d} images".format(self.val_size))
 
     def getActiveLabels(self):
-        return ["fastfood_restaurant", "children_room", "bathroom", "closet", "tv_studio", "computerroom", "clothingstore", "gym", "auditorium", "classroom", "bar", "garage", "dining_room", "florist", "bakery"]
+        return ["bathroom", "office", "computerroom", "dining_room", "livingroom", "bedroom","kitchen"]
 
     def readImageList(self, path):
         label_directories = self.getActiveLabels()
