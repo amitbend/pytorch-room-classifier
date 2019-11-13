@@ -5,7 +5,7 @@ import torch
 import itertools
 import numpy as np
 import matplotlib as mpl
-mpl.use('TkAgg')
+# mpl.use('TkAgg')
 import matplotlib.pyplot as plt
 
 from sklearn import svm, datasets
