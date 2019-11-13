@@ -45,9 +45,8 @@ def test(model, testloader, config):
     print("Final Accuracy:", acc.avg)
 
     if config.draw_confusion_matrix:
-        class_names = ["fastfood_restaurant", "children_room", "bathroom", "closet", "tv_studio", "computerroom",
-                       "clothingstore", "gym", "auditorium", "classroom", "bar", "garage", "dining_room", "florist",
-                       "bakery"]
+        class_names = ["bathroom", "office", "computerroom", "dining_room", "livingroom", "bedroom","kitchen"]
+
         # Compute confusion matrix
         cnf_matrix = confusion_matrix(y_test, y_pred)
         np.set_printoptions(precision=2)
