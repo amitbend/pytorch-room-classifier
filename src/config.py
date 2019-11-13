@@ -7,7 +7,7 @@ import torchvision.transforms as T
 class Config(object):
     def __init__(self):
         # Basic Parameters
-        self.data_path = "/content/Images"
+        self.data_path = "/content/Images/"
         self.train_img_list = "TrainImages.txt"
         self.test_img_list = "TestImages.txt"
         self.test_only = False
