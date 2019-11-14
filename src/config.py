@@ -13,7 +13,7 @@ class Config(object):
         self.test_only = False
         self.model_path = "my_best_model.pth.tar" #If test only mode is on, test the performance of this model, otherwise finetune this model
         self.seed = 1
-        self.no_of_classes = 15
+        self.no_of_classes = 7
         self.model_input_width = 224
         self.model_input_height = 224
         self.model_input_channels = 3
@@ -23,12 +23,12 @@ class Config(object):
         self.learning_rate = 0.00025
         self.weight_decay = 5e-04
         self.no_of_train_batches = 32
-        self.no_of_epochs = 200
+        self.no_of_epochs = 1000
         self.validation_frequency = 5
         self.drop_prob = 0.25
         self.augment_data = True
         self.train_print_freq = 25
-        self.use_resnet = False
+        self.use_resnet = True
         self.use_batch_normalization = True
 
         self.pretrained_data_mean = []
