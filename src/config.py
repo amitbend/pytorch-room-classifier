@@ -23,7 +23,7 @@ class Config(object):
         self.learning_rate = 0.00025
         self.weight_decay = 5e-04
         self.no_of_train_batches = 32
-        self.no_of_epochs = 1000
+        self.no_of_epochs = 15000
         self.validation_frequency = 5
         self.drop_prob = 0.25
         self.augment_data = True
